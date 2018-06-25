@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: dewey.framework.usermanagement.wechartloginservice.Wechart
+ loginserviceApplication
+

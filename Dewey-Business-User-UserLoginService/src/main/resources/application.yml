@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.17.0.33:9091/eureka/
+server:
+  port: 10001
+spring:
+  application:
+    name: UserLoginService

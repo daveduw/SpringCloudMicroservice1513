@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dewey-Business-Order-CreateOrderService/Dewey-Business-Order-CreateOrderService.iml" filepath="$PROJECT_DIR$/Dewey-Business-Order-CreateOrderService/Dewey-Business-Order-CreateOrderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dewey-Framework-EurekaServer/Dewey-Framework-EurekaServer.iml" filepath="$PROJECT_DIR$/Dewey-Framework-EurekaServer/Dewey-Framework-EurekaServer.iml" />
+    </modules>
+  </component>
+</project>

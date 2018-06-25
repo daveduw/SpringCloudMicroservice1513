@@ -1,0 +1,26 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+server:
+  port: 9094
+spring:
+  application:
+    name: ZuulService
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: UserRegisterService
+    api-b:
+      path: /api-b/**
+      serviceId: WeChartLoginService
+#    api-userregisterservice:
+#      path: /api-userregisterservice/**
+#      serviceId: /User/UserRegisterService
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+#  ribbon.eureka.enabled: false

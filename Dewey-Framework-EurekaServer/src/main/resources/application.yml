@@ -1,0 +1,17 @@
+server:
+  port: 9091
+
+
+eureka:
+  instance:
+    hostname: localhost
+    lease-renewal-interval-in-seconds: 1
+  server:
+    enable-self-preservation: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    #eureka.client.registerWithEureka：false与fetchRegistry：false  表明当前服务是一个eureka server.
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+

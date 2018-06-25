@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+server:
+  port: 12001
+spring:
+  application:
+    name: WeChartLoginService
+
