@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Dewey-Business-Order-CreateOrderService" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Dewey-Business-Order-OrderPriceRatingService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Dewey-Business-User-UserLoginService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Dewey-Business-User-UserRegisterService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Dewey-Business-User-WechartLoginService" charset="UTF-8" />

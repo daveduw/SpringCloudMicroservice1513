@@ -17,9 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Dewey-Business-Order-CreateOrderService" target="1.8" />
       <module name="Dewey-Business-Order-OrderPriceRatingService" target="1.8" />
-      <module name="Dewey-Framework-EurekaServer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
