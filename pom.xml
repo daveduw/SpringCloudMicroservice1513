@@ -27,14 +27,15 @@
     </modules>
 
     <properties>
-        <services>
-            <service>
-                <module>Dewey-Business-Order-CreateOrderService</module>
-                <path>Dewey-Business-Order-CreateOrderService</path>
-                <image>createorderservice</image>
-                <jar>createorderservice${project.version}.jar</jar>
-            </service>
-        </services>
+        <!--<services>-->
+            <service.name>Dewey-Business-Order-CreateOrderService </service.name>
+                <!--<name>Dewey-Business-Order-CreateOrderService</name>-->
+                <!--<path>Dewey-Business-Order-CreateOrderService</path>-->
+                <!--<image>createorderservice</image>-->
+                <!--&lt;!&ndash;<jar>createorderservice${project.version}.jar</jar>&ndash;&gt;-->
+                <!--<jar>createorderservice${project.version}.jar</jar>-->
+
+        <!--</services>-->
     </properties>
 
     <build>

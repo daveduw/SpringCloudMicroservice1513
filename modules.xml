@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services>
+    <service>
+        <name>Dewey-Business-Order-CreateOrderService</name>
+        <path>Dewey-Business-Order-CreateOrderService</path>
+        <image>createorderservice</image>
+        <!--<jar>createorderservice${project.version}.jar</jar>-->
+        <jar>createorder-1.0.0.jar</jar>
+    </service>
+</services>
