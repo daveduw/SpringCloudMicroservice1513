@@ -13,6 +13,6 @@
         <path>Dewey-Business-User-UserLoginService</path>
         <image>dewey-user-userloginservice</image>
         <!--<jar>createorderservice${project.version}.jar</jar>-->
-        <jar>userlogin-0.0.1.jar</jar>
+        <jar>userlogin-1.0.0.jar</jar>
     </module>
 </modules>
