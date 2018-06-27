@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<services>
-    <service>
+<modules>
+    <module>
         <name>Dewey-Business-Order-CreateOrderService</name>
         <path>Dewey-Business-Order-CreateOrderService</path>
-        <image>createorderservice</image>
+        <image>dewey-order-createorderservice</image>
         <!--<jar>createorderservice${project.version}.jar</jar>-->
         <jar>createorder-1.0.0.jar</jar>
-    </service>
-</services>
+    </module>
+    <module>
+        <name>Dewey-Business-User-UserLoginService</name>
+        <path>Dewey-Business-User-UserLoginService</path>
+        <image>dewey-user-userloginservice</image>
+        <!--<jar>createorderservice${project.version}.jar</jar>-->
+        <jar>userlogin-0.0.1.jar</jar>
+    </module>
+</modules>

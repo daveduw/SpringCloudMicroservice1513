@@ -1,0 +1,14 @@
+service:
+  name:Dewey-Business-User-UserLoginService
+  path:Dewey-Business-User-UserLoginService
+  image:dewey-businesss-userlonginservice
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.17.0.33:9091/eureka/
+server:
+  port: 12001
+spring:
+  application:
+    name: create-order-service
