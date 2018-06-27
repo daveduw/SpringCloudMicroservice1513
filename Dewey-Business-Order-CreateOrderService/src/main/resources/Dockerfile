@@ -1,4 +1,4 @@
 FROM cantara/alpine-openjdk-jdk8
-ADD createorder-0.0.1-SNAPSHOT.jar createorder-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/tmp/createorder-0.0.1-SNAPSHOT.jar"]
+ADD createorder-1.0.0.jar createorder-1.0.0.jar
+ENTRYPOINT ["java","-jar","/tmp/createorder-1.0.0.jar"]
 
