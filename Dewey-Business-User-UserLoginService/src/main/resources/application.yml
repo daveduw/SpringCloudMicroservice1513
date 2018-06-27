@@ -1,3 +1,8 @@
+service:
+  name:Dewey-Business-User-UserLoginService
+  path:Dewey-Business-User-UserLoginService
+  image:dewey-businesss-userlonginservice
+
 eureka:
   client:
     serviceUrl:
